@@ -36,7 +36,7 @@
   - `.group()` *Crea un grupo de mensajes de consola*:
 
     ```javascript
-       console.group("bucleFor");
+       console.group("bucleFor");ç
        for(var i=100; i>0; i--){
          console.info("Iteración numero %i", i)
        }
