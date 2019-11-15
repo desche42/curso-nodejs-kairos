@@ -21,3 +21,13 @@ console.log(result);
 
 process.on('unhandledRejection', () => console.log('you fucked up'));
 process.on('exit', () => console.log('about to close the process'));
+
+
+// podemos crear procesos hijos
+const { exec } = require('child_process');
+
+exec('cat 6-process.js', (err, stdout, stderr) => {
+  err
+    ? console.error(`Error: ${err}`)
+    : console.log('El fichero es:\n', stdout)
+});
