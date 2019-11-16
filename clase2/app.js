@@ -38,4 +38,15 @@ function respond (req, res) {
   res.status(200).send('You\'re in');
 }
 
+// si queremos que se use en toda la app podemos hacer
+// app.use(authenticate)
+
+// para definir middlewares para los parámetros de la url:
+app.param(':user_id', (req, res, next) => {
+  // podemos modificar la request para usar los datos
+  // req.user_id = req.params.user_id;
+  console.log(req.params.user_id);
+  next();
+});
+
 app.listen(3000, () => console.log('Listening on port 3000'));
