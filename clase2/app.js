@@ -24,4 +24,18 @@ app.get('/user/:id', (req, res) => {
   res.send(id);
 });
 
+// metemos middlewares
+app.get('/authenticate', authenticate, respond);
+
+function authenticate (req, res, next) {
+  const { auth } = req.query;
+  auth === 'admin'
+    ? next()
+    : res.status(403).send('Nice try')
+}
+
+function respond (req, res) {
+  res.status(200).send('You\'re in');
+}
+
 app.listen(3000, () => console.log('Listening on port 3000'));
