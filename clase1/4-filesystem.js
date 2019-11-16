@@ -27,5 +27,3 @@ console.log(path.basename('tmp/4-filesystem.js')); // 4-filesystem.js
 console.log(path.resolve('tmp', '..', '4-filesystem.js')); // index.js
 
 // hay otras cosas como path.join, __dirname, __filename
-
-
