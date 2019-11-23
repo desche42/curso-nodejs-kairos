@@ -20,6 +20,6 @@ Teoría y Recursos
 
 | Clase         | Ejercicios prácticos                                                                                 |
 |---------------|------------------------------------------------------------------------------------------------------|
-| Clase 1       | [Film api](https://github.com/desche42/film-api/tree/51c7124e9a18538c918e21873682eab96b6d5f16)       |
-| Clase 2       | [Simple chat](https://github.com/desche42/simple-chat/tree/4b4abd0669af7e9a93e8e4edab1893c31e5b1d7a) |
+| Clase 2       | [Film api](https://github.com/desche42/film-api/tree/51c7124e9a18538c918e21873682eab96b6d5f16)       |
+| Clase 3       | [Simple chat](https://github.com/desche42/simple-chat/tree/4b4abd0669af7e9a93e8e4edab1893c31e5b1d7a) |
 
