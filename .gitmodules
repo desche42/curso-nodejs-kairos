@@ -1,0 +1,8 @@
+[submodule "clase3/simple-chat"]
+	path = clase3/simple-chat
+	url = https://github.com/desche42/simple-chat.git
+  branch = template
+[submodule "clase2/film-api"]
+	path = clase2/film-api
+	url = https://github.com/desche42/film-api.git
+  branch = template
