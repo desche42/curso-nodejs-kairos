@@ -16,3 +16,10 @@ Teoría y Recursos
 | [Clase 3](clase3/README.md) | [Clase 3](clase3/recursos.md) | Socket.io y despliegue en la nube mediante Heroku |
 | [Clase 4](clase4/README.md) | [Clase 4](clase4/recursos.md) | Firebase                                          |
 | [Clase 5](clase5/README.md) | [Clase 5](clase5/recursos.md) | Testing de aplicaciones                           |
+
+
+| Clase         | Ejercicios prácticos                                                                                 |
+|---------------|------------------------------------------------------------------------------------------------------|
+| Clase 1       | [Film api](https://github.com/desche42/film-api/tree/51c7124e9a18538c918e21873682eab96b6d5f16)       |
+| Clase 2       | [Simple chat](https://github.com/desche42/simple-chat/tree/4b4abd0669af7e9a93e8e4edab1893c31e5b1d7a) |
+
