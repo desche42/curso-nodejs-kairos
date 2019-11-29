@@ -6,3 +6,9 @@
 	path = clase2/film-api
 	url = https://github.com/desche42/film-api.git
   branch = template
+[submodule "clase4/twitter-firebase-stream"]
+	path = clase4/twitter-firebase-stream
+	url = https://github.com/desche42/twitter-firebase-stream.git
+[submodule "clase4/firebase-login-express"]
+	path = clase4/firebase-login-express
+	url = https://github.com/desche42/firebase-login-express.git
