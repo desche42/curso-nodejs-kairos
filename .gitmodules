@@ -9,6 +9,8 @@
 [submodule "clase4/twitter-firebase-stream"]
 	path = clase4/twitter-firebase-stream
 	url = https://github.com/desche42/twitter-firebase-stream.git
+  branch = template
 [submodule "clase4/firebase-login-express"]
 	path = clase4/firebase-login-express
 	url = https://github.com/desche42/firebase-login-express.git
+  branch = template
