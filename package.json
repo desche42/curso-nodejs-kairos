@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ejercicio6": "node clase5/ejercicio6.js"
   },
   "author": "",
   "license": "ISC",
