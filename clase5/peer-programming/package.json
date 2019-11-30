@@ -1,0 +1,16 @@
+{
+  "name": "peer-programming",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:watch": "nodemon --watch tests --watch lib ./node_modules/.bin/mocha tests/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "nodemon": "^2.0.1"
+  }
+}
